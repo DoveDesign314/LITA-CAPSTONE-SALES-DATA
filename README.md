@@ -48,7 +48,10 @@ EDA involved exploring the data to answer some questions about the Data such as;
 After the initial data preparation, SQL was used to run more advanced queries on the dataset , allowing deeper insights.
 
 Key SQL Queries:
-SELECT product_name, SUM(sales_amount) AS total_sales
-FROM sales_data
-GROUP BY product_name
-ORDER BY total_sales DESC;
+
+- Retrieve the total number of customers from each region
+```SQL
+SELECT Region, COUNT(CustomerID) AS TotalCustomers
+FROM CustomerData
+GROUP BY Region;
+```
