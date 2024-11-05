@@ -26,7 +26,7 @@ The primary source of data used here was Data Sale.xlsx
      
 - Github for portfolio Building [Download Here](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
 
-### Data Cleaning and Preparation (Excel)
+### 1. Data Cleaning and Preparation (Excel)
 The sales data was first explored and cleaned in Excel. The following actions were done:
 1. Data loading and Inspection.
 2. Handling missing variables, removing duplicates and formatting columns.
@@ -37,3 +37,18 @@ The sales data was first explored and cleaned in Excel. The following actions we
 - Filtered sales data for the analysis period.
 - Created summary/pivot tables for product categories, regions, and sales channels.
 - Calculated key metrics such as average sales per product and total revenue by region.
+
+### Exploratory Data Analysis
+EDA involved exploring the data to answer some questions about the Data such as;
+- what is the overall sales trend?
+- which product are top selling?
+- what are the products on peak sales?
+
+### 2. Data Analysis (SQL)
+After the initial data preparation, SQL was used to run more advanced queries on the dataset , allowing deeper insights.
+
+Key SQL Queries:
+SELECT product_name, SUM(sales_amount) AS total_sales
+FROM sales_data
+GROUP BY product_name
+ORDER BY total_sales DESC;
