@@ -57,9 +57,36 @@ After the initial data preparation, SQL was used to run more advanced queries on
 
 Key SQL Queries:
 
-- Retrieve the total number of customers from each region
+- To retrieve the total number of customers from each region
 ```SQL
 SELECT Region, COUNT(CustomerID) AS TotalCustomers
 FROM CustomerData
 GROUP BY Region;
+```
+- To find the number of sales transactions in each region.
+```SQL
+Select Region,COUNT(OrderID) as NumOfTransactions
+from Sales Data
+Group by Region
+```
+- To find the highest-selling product by total sales value
+```SQL
+select top(1) PRODUCT,
+SUM([Total_sales])as TotalSales
+from [dbo].[Sales Data]
+group by PRODUCT
+order by TotalSales DESC
+```
+- To calculate the total revenue per product
+```SQL
+Select PRODUCT, SUM([Total_sales]) as TotalRevenue
+from [dbo].[Sales Data]
+group by PRODUCT
+```
+- To find the top 5 customers by total purchase amount
+```SQL
+select top(5) [Customer_Id],
+ SUM ([Total_sales]) as TotalPurchaseAmount from [dbo].[Sales Data]
+group by [Customer_Id]
+order by TotalPurchaseAMount DESC
 ```
