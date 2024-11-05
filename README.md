@@ -10,7 +10,7 @@ The project was completed in three phases: data cleaning and exploration in Exce
 The primary source of data used here was Data Sale.xlsx
 
 ### Tools Used
-- Microsoft Excel
+- Microsoft Excel [Download Here](https://www.microsoft.com)
   1. For initial data cleaning,
   2. For analysis,
   3. For exploration and
