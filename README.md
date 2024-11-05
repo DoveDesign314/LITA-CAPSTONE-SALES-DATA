@@ -16,15 +16,15 @@ The primary source of data used here was Data Sale.xlsx
   3. For exploration and
   4. For Data visualization.
      
-- SQL
+- SQL [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
   1.  For data extraction
   2.  For advanced querying from the sales database.
      
-- Power BI
+- Power BI [Downloaad Here](https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop)
   1. For data visualization
   2. For dashboard creation.
      
-- Github for portfolio Building
+- Github for portfolio Building [Download Here](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
 
 
 
