@@ -1,15 +1,19 @@
 #  Retail Store Sales Analysis
 
 ### Project Overview
+---
 his project focuses on analyzing the sales performance of a retail store. The goal is to uncover key insights such as top-selling products, regional performance, and monthly sales trends using Excel, SQL, and Power BI. The findings are presented through an interactive Power BI dashboard that visualizes the data and helps inform decision-making.
 
 ### Project Workflow
+---
 The project was completed in three phases: data cleaning and exploration in Excel, query-based analysis using SQL, and final visualization in Power BI.
 
 ### Data Sources
+---
 The primary source of data used here was Data Sale.xlsx
 
 ### Tools Used
+---
 - Microsoft Excel [Download Here](https://www.microsoft.com)
   1. For initial data cleaning,
   2. For analysis,
@@ -27,6 +31,7 @@ The primary source of data used here was Data Sale.xlsx
 - Github for portfolio Building [Download Here](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
 
 ### 1. Data Cleaning and Preparation (Excel)
+---
 The sales data was first explored and cleaned in Excel. The following actions were done:
 1. Data loading and Inspection.
 2. Handling missing variables, removing duplicates and formatting columns.
@@ -34,17 +39,20 @@ The sales data was first explored and cleaned in Excel. The following actions we
 4. Basic exploratory analysis, such as calculating total sales, average revenue, average unit price etc using pivot tables.
 
 ### Key Steps:
+---
 - Filtered sales data for the analysis period.
 - Created summary/pivot tables for product categories, regions, and sales channels.
 - Calculated key metrics such as average sales per product and total revenue by region.
 
 ### Exploratory Data Analysis
+---
 EDA involved exploring the data to answer some questions about the Data such as;
 - what is the overall sales trend?
 - which product are top selling?
 - what are the products on peak sales?
 
 ### 2. Data Analysis (SQL)
+---
 After the initial data preparation, SQL was used to run more advanced queries on the dataset , allowing deeper insights.
 
 Key SQL Queries:
