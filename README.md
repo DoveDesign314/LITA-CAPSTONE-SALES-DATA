@@ -26,5 +26,14 @@ The primary source of data used here was Data Sale.xlsx
      
 - Github for portfolio Building [Download Here](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
 
+### Data Cleaning and Preparation (Excel)
+The sales data was first explored and cleaned in Excel. The following actions were done:
+1. Data loading and Inspection.
+2. Handling missing variables, removing duplicates and formatting columns.
+3. Data validation to ensure consistency (e.g., correct product IDs, regional codes).
+4. Basic exploratory analysis, such as calculating total sales, average revenue, average unit price etc using pivot tables.
 
-
+### Key Steps:
+- Filtered sales data for the analysis period.
+- Created summary/pivot tables for product categories, regions, and sales channels.
+- Calculated key metrics such as average sales per product and total revenue by region.
