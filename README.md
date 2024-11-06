@@ -1,6 +1,6 @@
 #  Retail Store Sales Analysis
 
-Project Overview
+[Project Overview](#project-overview)
 Project Workflow
 Data Source
 Datasets and column definitions
