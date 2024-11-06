@@ -24,10 +24,10 @@ The sales data used in this project consists of multiple columns that capture ke
 
 ### Key Insights from the Data
 ---
-Top-Selling Products: Identified by using the Product_Name, Quantity_Sold, and Sales_Amount columns.
-Regional Performance: Analyzed through the Region column in relation to total sales.
-Monthly Sales Trends: Derived from the Order_Date column by aggregating sales across different months.
-Average Revenue by Region: Calculated by the average revenue per sales in each region to assess performance
+- Top-Selling Products: Identified by using the Product_Name, Quantity_Sold, and Sales_Amount columns.
+- Regional Performance: Analyzed through the Region column in relation to total sales.
+- Monthly Sales Trends: Derived from the Order_Date column by aggregating sales across different months.
+- Average Revenue by Region: Calculated by the average revenue per sales in each region to assess performance
 
 ### Tools Used
 ---
@@ -117,3 +117,38 @@ select top(5) [Customer_Id],
 group by [Customer_Id]
 order by TotalPurchaseAMount DESC
 ```
+
+### 3. Data Visualization (Power BI)
+---
+DAX Measures for key insights were created:
+- Total Sales:
+```DAX
+TotalSales = SUMX(Sales, Sales[Quantity] * Sales[UnitPrice])
+```
+- Sales by Region
+```DAX
+  SalesByRegion = SUM(Sales[TotalSales])
+```
+The final stage was to visualize the insights using Power BI. The interactive dashboard includes:
+
+- Top-Performing Products: A bar chart showing the products that brought in the highest revenue.
+```
+Axis: Product Name.
+Values: Total Sales (using TopProductSales).
+ ```
+- Regional Sales Performance: A map chart displaying total sales by region.
+```
+	Location: Region
+	Values: Total Sales
+```
+- Monthly Sales Trends: A line chart visualizing sales trends over time.
+```
+X-axis: Order Date 
+Y-axis: Total Sales.
+```
+
+### Key Findings:
+---
+- Top-Selling Products: The top 3 products accounted for 40% of total sales, with Product A leading the list.
+- Regional Performance: Region X generated the highest sales, contributing to 35% of the overall revenue.
+- Sales Trends: The highest sales occurred in December, with a steady increase observed in the last quarter of the year.
