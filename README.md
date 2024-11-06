@@ -186,4 +186,5 @@ EXCEL
 - SALES TREND BY MONTH
 ![SalesTrendbyMonth](https://github.com/user-attachments/assets/41449945-c7fb-433f-9562-13938b6a06de)
 
+There is a noticeable decline 
 
