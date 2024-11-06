@@ -1,5 +1,8 @@
 #  Retail Store Sales Analysis
+---
 
+## Project Outline
+---
 [Project Overview](#project-overview)
 
 [Project Workflow](#project-workflow)
@@ -182,9 +185,51 @@ Y-axis: Total Sales.
 - Sales Trends: The highest sales occurred in December, with a steady increase observed in the last quarter of the year.
 
 ### Pictorial Visuals of Analysis
-EXCEL
-- SALES TREND BY MONTH
+
+**EXCEL**
+---
+- **SALES TREND BY MONTH**
 ![SalesTrendbyMonth](https://github.com/user-attachments/assets/41449945-c7fb-433f-9562-13938b6a06de)
 
 There is a noticeable decline 
 
+- **AVERAGE ORDER QUANTITY BY REGION**
+![AverageOrderquantitybyRegion](https://github.com/user-attachments/assets/75adc542-c0ed-4dc0-8f49-97ae6bcff435)
+
+- **SALES BY PRODUCT BY REGION**
+![SalesbyProductbyRegion](https://github.com/user-attachments/assets/7292c52b-a120-4bb9-a779-c3fb59547cfd)
+
+- **MONTHLY SALES BY REGION**
+![MonthlysalesbyRegion](https://github.com/user-attachments/assets/3745c19a-ec63-4f82-a129-7b86bd8b6c62)
+
+
+**EXCEL DASHBOARD FOR SALES DATA**
+
+![SalesDashboard](https://github.com/user-attachments/assets/adbc85de-7aca-47fa-bd55-b6ea06cdafbe)
+
+**SQL**
+---
+- **HIGHEST SELLING PRODUCT PER SALES**
+  
+![HighestSellinProductperSales](https://github.com/user-attachments/assets/813bc98a-5239-4f0a-808e-a09db1550dbb)
+
+- **MONTHLY SALES FOR THE CURRENT YEAR**
+![MonthlySalesforthecurrentyear](https://github.com/user-attachments/assets/6e0aaff1-5340-45f8-9f84-e0f9758cc0f9)
+
+- **NUMBER OF SALES PER REGION**
+![NoofSalesperRegion](https://github.com/user-attachments/assets/75ed6f8f-aee3-4016-a6cb-96e18451a984)
+
+- **TOP 5 CUSTOMERID BY PURCHASE AMOUNT**
+ ![Top5CustomerIDbyPurchaseAmount](https://github.com/user-attachments/assets/e34cf389-f943-4821-9820-1017ffd843c7)
+
+- **TOTAL REVENUE PER PRODUCT**
+![Totalrevenueperproduct](https://github.com/user-attachments/assets/b16dd869-10bc-41c3-9db1-b394a6bdccbf)
+
+- **TOTAL SALES OF EACH PRODUCT**
+![Totalsalesforeachproduct](https://github.com/user-attachments/assets/d4a18ed3-d6aa-45a9-a71d-976ea2941aae)
+
+
+**POWER BI**
+---
+- **TOTAL SALES BY MONTH**
+![TOTALSALESBYMONTH](https://github.com/user-attachments/assets/9d55abb2-9d9a-4681-92bb-39f4d89df041)
