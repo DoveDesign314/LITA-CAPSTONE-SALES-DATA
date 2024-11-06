@@ -2,7 +2,7 @@
 
 ### Project Overview
 ---
-his project focuses on analyzing the sales performance of a retail store. The goal is to uncover key insights such as top-selling products, regional performance, and monthly sales trends using Excel, SQL, and Power BI. The findings are presented through an interactive Power BI dashboard that visualizes the data and helps inform decision-making.
+This project focuses on analyzing the sales performance of a retail store. The goal is to uncover key insights such as top-selling products, regional performance, and monthly sales trends using Excel, SQL, and Power BI. The analysis focuses on understanding revenue trends and sales performance across regions and calculating key metrics such as average revenue by region. The findings are presented through an interactive Power BI dashboard that visualizes the data and helps inform decision-making.
 
 ### Project Workflow
 ---
@@ -11,6 +11,23 @@ The project was completed in three phases: data cleaning and exploration in Exce
 ### Data Sources
 ---
 The primary source of data used here was Data Sale.xlsx
+
+### Datasets and column definitions
+---
+The sales data used in this project consists of multiple columns that capture key information about sales transactions. Below is an explanation of each column in the dataset:
+- Order_ID: Used to distinguish individual transactions in the dataset.
+- Product_Name: Name of the product sold such as shirt, shoes, hat, jacket, gloves etc.
+-  Quantity_Sold: Number of units of the product sold in a single transaction.
+-  Order_Date: he date when the transaction occurred
+-  Customer_ID: Unique identifier for each customer
+-  Region: Geographic region where the sale took place.
+
+### Key Insights from the Data
+---
+Top-Selling Products: Identified by using the Product_Name, Quantity_Sold, and Sales_Amount columns.
+Regional Performance: Analyzed through the Region column in relation to total sales.
+Monthly Sales Trends: Derived from the Order_Date column by aggregating sales across different months.
+Average Revenue by Region: Calculated by the average revenue per sales in each region to assess performance
 
 ### Tools Used
 ---
@@ -44,6 +61,16 @@ The sales data was first explored and cleaned in Excel. The following actions we
 - Created summary/pivot tables for product categories, regions, and sales channels.
 - Calculated key metrics such as average sales per product and total revenue by region.
 
+### Formula Used
+---
+- Average sales per Product
+```EXCEL
+=AVERAGEIF(C2:C50001,C2,H2:H50001)
+```
+- Total revenue by Region
+```EXCEL
+SUMIF(D3:D50002,D3,H3:H50002)
+```
 ### Exploratory Data Analysis
 ---
 EDA involved exploring the data to answer some questions about the Data such as;
