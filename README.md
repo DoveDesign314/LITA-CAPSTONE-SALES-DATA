@@ -1,7 +1,7 @@
 #  Retail Store Sales Analysis
 ---
 
-## Project Outline
+### Project Outline
 ---
 [Project Overview](#project-overview)
 
@@ -185,6 +185,7 @@ Y-axis: Total Sales.
 - Sales Trends: The highest sales occurred in December, with a steady increase observed in the last quarter of the year.
 
 ### Pictorial Visuals of Analysis
+---
 
 **EXCEL**
 ---
