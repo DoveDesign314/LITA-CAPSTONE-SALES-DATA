@@ -1,19 +1,32 @@
 #  Retail Store Sales Analysis
 
 [Project Overview](#project-overview)
-Project Workflow
-Data Source
-Datasets and column definitions
-Key Insights from the Data
-Tools Used
-Data Cleaning and Preparation (Excel)
-Key steps
-Formula Used
-Exploratory Data Analysis
-Data Analysis (SQL)
-Data Visualization (Power BI)
-Key Findings
-Pictorial Visuals of Analysis
+
+[Project Workflow](#project-workflow)
+
+[Data Source](#data-source)
+
+[Datasets and column definitions](datasets-and-column-definitions)
+
+[Key Insights from the Data](#key-insights-from-the-data)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning and Preparation (Excel)](#data-cleaning-and-preparation)
+
+[Key steps](#key-steps)
+
+[Formula Used](#formula-used)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis (SQL)](#data-analysis-(sql))
+
+[Data Visualization (Power BI)](#data-visualization-(power-bi))
+
+[Key Findings](#key-findings)
+
+[Pictorial Visuals of Analysis](#pictorial-visuals-of-analysis)
 
 ### Project Overview
 ---
