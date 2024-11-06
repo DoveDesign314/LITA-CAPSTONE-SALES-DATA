@@ -1,5 +1,20 @@
 #  Retail Store Sales Analysis
 
+Project Overview
+Project Workflow
+Data Source
+Datasets and column definitions
+Key Insights from the Data
+Tools Used
+Data Cleaning and Preparation (Excel)
+Key steps
+Formula Used
+Exploratory Data Analysis
+Data Analysis (SQL)
+Data Visualization (Power BI)
+Key Findings
+Pictorial Visuals of Analysis
+
 ### Project Overview
 ---
 This project focuses on analyzing the sales performance of a retail store. The goal is to uncover key insights such as top-selling products, regional performance, and monthly sales trends using Excel, SQL, and Power BI. The analysis focuses on understanding revenue trends and sales performance across regions and calculating key metrics such as average revenue by region. The findings are presented through an interactive Power BI dashboard that visualizes the data and helps inform decision-making.
@@ -8,7 +23,7 @@ This project focuses on analyzing the sales performance of a retail store. The g
 ---
 The project was completed in three phases: data cleaning and exploration in Excel, query-based analysis using SQL, and final visualization in Power BI.
 
-### Data Sources
+### Data Source
 ---
 The primary source of data used here was Data Sale.xlsx
 
@@ -147,8 +162,12 @@ X-axis: Order Date
 Y-axis: Total Sales.
 ```
 
-### Key Findings:
+### Key Findings
 ---
 - Top-Selling Products: The top 3 products accounted for 40% of total sales, with Product A leading the list.
 - Regional Performance: Region X generated the highest sales, contributing to 35% of the overall revenue.
 - Sales Trends: The highest sales occurred in December, with a steady increase observed in the last quarter of the year.
+
+### Pictorial Visuals of Analysis
+EXCEL
+
