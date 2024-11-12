@@ -232,5 +232,36 @@ There is a noticeable decline
 
 **POWER BI**
 ---
-- **TOTAL SALES BY MONTH**
+**SALES OVERVIEW (TOP - PERFORMING PRODUCTS)**
+---
+**TOTAL SALES BY MONTH**
 ![TOTALSALESBYMONTH](https://github.com/user-attachments/assets/9d55abb2-9d9a-4681-92bb-39f4d89df041)
+
+**TOTAL SALES BY MONTH (WITH SLICER 2023)**
+![TOTALSALESBYMONTH 2023](https://github.com/user-attachments/assets/b4f9a7e1-6ea0-4a4b-9b58-038204d153ca)
+
+**TOTAL SALES BY MONTH (WITH SLICER 2024)**
+![TOTALSALESBYMONTH 2024](https://github.com/user-attachments/assets/75dccc34-1cd9-4827-a57d-f7064c2b7774)
+
+
+TOP-PERFORMING PRODUCTS
+---
+**PRODUCT RANK BY PRODUCT**
+![PRODUCTRANK BY PRODUCT](https://github.com/user-attachments/assets/ffff4692-3a07-4a19-8d91-6c390854bbe1)
+
+**TOTAL QUANTITY SOLD BY PRODUCT**
+![TOTALQTYSOLD BY PRODUCT ](https://github.com/user-attachments/assets/927254ac-5344-4697-a2cb-232617ce11a0)
+
+**TOTAL SALES BY PRODUCT**
+![TOTALSALES BY PDT COL](https://github.com/user-attachments/assets/42c8269b-59ff-4aa1-8549-2fbe944e040c)
+
+
+REGIONAL BREAKDOWNS
+---
+**SALES BY REGION**
+![SALES BY REGION](https://github.com/user-attachments/assets/31d4cd23-acfd-4d9c-92f5-b8faa60011de)
+
+
+SALES DATA DASHBOARD
+---
+![SALES DATA DASHBOARD POWERBI](https://github.com/user-attachments/assets/03d89d45-2513-4843-86a9-f0278f77d440)
