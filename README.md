@@ -192,8 +192,6 @@ Y-axis: Total Sales.
 - **SALES TREND BY MONTH**
 ![SalesTrendbyMonth](https://github.com/user-attachments/assets/41449945-c7fb-433f-9562-13938b6a06de)
 
-There is a noticeable decline 
-
 - **AVERAGE ORDER QUANTITY BY REGION**
 ![AverageOrderquantitybyRegion](https://github.com/user-attachments/assets/75adc542-c0ed-4dc0-8f49-97ae6bcff435)
 
@@ -202,7 +200,6 @@ There is a noticeable decline
 
 - **MONTHLY SALES BY REGION**
 ![MonthlysalesbyRegion](https://github.com/user-attachments/assets/3745c19a-ec63-4f82-a129-7b86bd8b6c62)
-
 
 **EXCEL DASHBOARD FOR SALES DATA**
 
@@ -229,10 +226,9 @@ There is a noticeable decline
 - **TOTAL SALES OF EACH PRODUCT**
 ![Totalsalesforeachproduct](https://github.com/user-attachments/assets/d4a18ed3-d6aa-45a9-a71d-976ea2941aae)
 
-
 **POWER BI**
 ---
-**SALES OVERVIEW (TOP - PERFORMING PRODUCTS)**
+**SALES OVERVIEW**
 ---
 **TOTAL SALES BY MONTH**
 ![TOTALSALESBYMONTH](https://github.com/user-attachments/assets/9d55abb2-9d9a-4681-92bb-39f4d89df041)
@@ -242,7 +238,6 @@ There is a noticeable decline
 
 **TOTAL SALES BY MONTH (WITH SLICER 2024)**
 ![TOTALSALESBYMONTH 2024](https://github.com/user-attachments/assets/75dccc34-1cd9-4827-a57d-f7064c2b7774)
-
 
 TOP-PERFORMING PRODUCTS
 ---
@@ -255,14 +250,12 @@ TOP-PERFORMING PRODUCTS
 **TOTAL SALES BY PRODUCT**
 ![TOTALSALES BY PDT COL](https://github.com/user-attachments/assets/42c8269b-59ff-4aa1-8549-2fbe944e040c)
 
-
 REGIONAL BREAKDOWNS
 ---
 **SALES BY REGION**
 ![SALES BY REGION](https://github.com/user-attachments/assets/31d4cd23-acfd-4d9c-92f5-b8faa60011de)
 
-
-SALES DATA DASHBOARD
+### SALES DATA DASHBOARD
 ---
 ![SALES DATA DASHBOARD POWERBI](https://github.com/user-attachments/assets/03d89d45-2513-4843-86a9-f0278f77d440)
 
